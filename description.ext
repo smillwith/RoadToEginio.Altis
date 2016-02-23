@@ -1,0 +1,201 @@
+author = "$(dingus)";
+
+//respawn = 3;
+//respawndelay = 10;
+//disabledAI = 0;
+//joinUnassigned = 0;
+//enableDebugConsole = 1;
+//allowFunctionsLog = 1;
+
+overviewPicture = "scenario-image.jpg";
+overviewText = "Support your team as you make your way to Eginio.";
+
+//showGroupIndicator = "1"; //mini map radar
+
+class CfgIdentities {
+
+  //leader
+  class cls_armstrong {
+    name = "Armstrong";
+    nameSound = "Armstrong";
+    face = "AfricanHead_01";
+    glasses = "None";
+    speaker = "Male08ENG";
+    pitch = 1.00;
+  };
+
+  //medic
+  class cls_larkin {
+    name = "Larkin";
+    nameSound = "Larkin";
+    face = "AfricanHead_03";
+    glasses = "None";
+    speaker = "Male12ENG";
+    pitch = 1.00;
+  };
+
+  class cls_jackson {
+    name = "Jackson";
+    nameSound = "Jackson";
+    face = "AfricanHead_02";
+    glasses = "None";
+    speaker = "Male02ENG";
+    pitch = 1.00;
+  };
+
+  class cls_adams {
+    name = "Adams";
+    nameSound = "Adams";
+    face = "WhiteHead_08";
+    glasses = "None";
+    speaker = "Male04ENG";
+    pitch = 1.00;
+  };
+
+  class cls_bennett {
+    name = "Bennett";
+    nameSound = "Bennett";
+    face = "WhiteHead_14";
+    glasses = "None";
+    speaker = "Male07ENG";
+    pitch = 1.00;
+  };
+
+  class cls_campbell {
+    name = "Campbell";
+    nameSound = "Campbell";
+    face = "WhiteHead_07";
+    glasses = "None";
+    speaker = "Male10ENG";
+    pitch = 1.00;
+  };
+
+  class cls_martinez {
+    name = "Martinez";
+    nameSound = "Martinez";
+    face = "WhiteHead_17";
+    glasses = "None";
+    speaker = "Male09ENG";
+    pitch = 1.00;
+  };
+
+  class cls_mckendrick {
+    name = "McKendrick";
+    nameSound = "McKendrick";
+    face = "WhiteHead_20";
+    glasses = "None";
+    speaker = "Male03ENG";
+    pitch = 1.00;
+  };
+
+  class cls_miller {
+    name = "Miller";
+    nameSound = "Miller";
+    face = "WhiteHead_03";
+    glasses = "None";
+    speaker = "Male01ENG";
+    pitch = 1.00;
+  };
+
+  class cls_taylor {
+    name = "Taylor";
+    nameSound = "Taylor";
+    face = "WhiteHead_15";
+    glasses = "None";
+    speaker = "Male12ENG";
+    pitch = 0.95;
+  };
+
+  class cls_levine {
+    name = "Levine";
+    nameSound = "Levine";
+    face = "WhiteHead_18";
+    glasses = "None";
+    speaker = "Male06ENG";
+    pitch = 1.00;
+  };
+
+  class cls_dixon {
+    name = "Dixon";
+    nameSound = "Dixon";
+    face = "WhiteHead_11";
+    glasses = "None";
+    speaker = "Male05ENG";
+    pitch = 0.95;
+  };
+
+  class cls_everett {
+    name = "Everett";
+    nameSound = "Everett";
+    face = "WhiteHead_12";
+    glasses = "None";
+    speaker = "Male04ENG";
+    pitch = 0.95;
+  };
+
+  class cls_franklin {
+    name = "Franklin";
+    nameSound = "Franklin";
+    face = "WhiteHead_13";
+    glasses = "None";
+    speaker = "Male08ENG";
+    pitch = 0.95;
+  };
+
+
+  class cls_givens {
+    name = "Givens";
+    nameSound = "Givens";
+    face = "AfricanHead_01";
+    glasses = "None";
+    speaker = "Male02ENG";
+    pitch = 0.95;
+  };
+
+  class cls_hawkins {
+    name = "Hawkins";
+    nameSound = "Hawkins";
+    face = "WhiteHead_16";
+    glasses = "None";
+    speaker = "Male01ENGB";
+    pitch = 1.00;
+  };
+
+  class cls_lopez {
+    name = "Lopez";
+    nameSound = "Lopez";
+    face = "WhiteHead_02";
+    glasses = "None";
+    speaker = "Male08ENG";
+    pitch = 1.00;
+  };
+
+  class cls_costa {
+    name = "Costa";
+    nameSound = "Costa";
+    face = "GreekHead_A3_05";
+    glasses = "None";
+    speaker = "Male03GRE";
+    pitch = 1.00;
+  };
+
+
+//patterson
+//walker
+//ryan
+
+};
+
+
+
+//--------------------------------------------------------------
+//------------------------AIS INJURY----------------------------
+//--------------------------------------------------------------
+class RscTitles {
+	#include "ais_injury\dialogs\rscTitlesAIS.hpp"
+};
+class CfgFunctions {
+	#include "ais_injury\cfgFunctionsAIS.hpp"
+};
+//--------------------------------------------------------------
+
